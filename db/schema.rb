@@ -73,4 +73,4 @@ ActiveRecord::Schema.define(version: 2020_09_12_080721) do
   add_foreign_key "comments", "prototypes"
   add_foreign_key "comments", "users"
   add_foreign_key "prototypes", "users"
-end
+end 
